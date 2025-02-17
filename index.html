@@ -113,6 +113,12 @@
                             <button id="contactBtn"
                                 class="border border-gray-300 dark:border-gray-700 px-6 py-3 !rounded-button hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-sm font-medium">Contact
                                 Me</button>
+                                <script>
+                                    const contactBtn = document.getElementById('contactBtn');
+                                    contactBtn.addEventListener('click', () => {
+                                      window.location.href = '#contact'; // Navigate to the contact section
+                                    });
+                                  </script>
                             <a href="https://linktr.ee/sathyaanand" target="_blank"
                                 class="border border-gray-300 dark:border-gray-700 px-6 py-3 !rounded-button hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-sm font-medium text-center">Links</a>
                         </div>
